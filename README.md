@@ -5,7 +5,7 @@ This is my repository for the [Iowa State University](https://www.iastate.edu/) 
 
 Master's student in Community and Regional Planning at Iowa State University. 
 
-For more information, Click [here](AboutHyunsikSon/AboutHyunsikSon.md)
+For more information, Click [here](AboutHyunsikSon/AboutHyunsikSon.md).
 
 This is my first try [exercise_2b](ex2b_2.md)
 
