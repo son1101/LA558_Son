@@ -2,7 +2,7 @@
 This is my repository for the [Iowa State University](https://www.iastate.edu/) Web Mapping and Spatial Data Visualization - Spring 2023. Following is some information about myself and links to the exercises, assignments and class projects completed for this course.
 
 ## About Me
-![Hyunsik Son (Son)](Son_1.jpg)
+!(Son_1.jpg)
 
 Hyunsik Son (Son) is a Community and Regional Planning graduate student with a bachelor’s degree in public administration and a master’s degree in engineering in urban planning and design, both from Korea University (KU), Seoul, South Korea.
 
