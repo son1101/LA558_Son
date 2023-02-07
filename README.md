@@ -4,7 +4,7 @@ This is my repository for the [Iowa State University](https://www.iastate.edu/) 
 ## About Me
 
 Hyunsik Son (Son) is a Master's student in Community and Regional Planning at Iowa State University. 
-For more information, Click phere](About
+For more information, Click [here](About Hyunsik Son.md)
 
 This is my first try [exercise_2b](ex2b_2.md)
 
