@@ -9,4 +9,4 @@ This is my first try [exercise_2b](ex2b_2.md)
 try 2 [exercise_2b_2](exercises/ex2b_2.jpeg)
 
 
-Link to [Google(http://www.google.com)
+Link to [Google](http://www.google.com)
