@@ -8,6 +8,8 @@
 
 ### <a href="https://son1101.github.io/LA558_Son/assignment/assign3a/assign3.pdf" target="_blank">2. Geosptial PDF</a> 
 
+### <a href="https://son1101.github.io/LA558_Son/assignment/assign3a/assign3.PDF" target="_blank">2. Geosptial PDF</a> 
+
 
 #### Description
 
