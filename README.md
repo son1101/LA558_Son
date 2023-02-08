@@ -5,17 +5,15 @@ This is my repository for the [Iowa State University](https://www.iastate.edu/) 
 
 ## 1. About Hyunsik Son
 
-A Master's Student in Community and Regional Planning at Iowa State University. 
+- A Master's Student in Community and Regional Planning at Iowa State University. 
+- For more information, Click [here](AboutHyunsikSon/AboutHyunsikSon.md).
 
-For more information, Click [here](AboutHyunsikSon/AboutHyunsikSon.md).
-<br>
-<br>
 ## 2. Class Exercises
-[1b](exercises/1b_exercise/1b_exercise.md) - A quick analysis/observation of the data provided by Professor Chris Seeger
 
-[2b](exercises/2b_exercise/ex2b_2.md) - A map created on QGIS and exported to Github with an image from a webpage.
-<br>
-<br>       
+- [1b](exercises/1b_exercise/1b_exercise.md) - A quick analysis/observation of the data provided by Professor Chris Seeger
+
+- [2b](exercises/2b_exercise/ex2b_2.md) - A map created on QGIS and exported to Github with an image from a webpage.
+       
 ## 3. Assignments
 <br>
 
