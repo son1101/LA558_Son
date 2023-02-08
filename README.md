@@ -3,7 +3,7 @@ This is my repository for the [Iowa State University](https://www.iastate.edu/) 
 
 ## About Hyunsik Son
 
-A Master's student in Community and Regional Planning at Iowa State University. 
+A Master's Student in Community and Regional Planning at Iowa State University. 
 
 For more information, Click [here](AboutHyunsikSon/AboutHyunsikSon.md).
 
