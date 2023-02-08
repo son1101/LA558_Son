@@ -1,5 +1,4 @@
 ## Hyunsik Son (Son)
-![My_Image](Son_1.jpg)
 
 <p align="center"><img src="Son_1.jpg"></p>
 
