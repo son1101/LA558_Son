@@ -15,7 +15,8 @@ This is my repository for the [Iowa State University](https://www.iastate.edu/) 
 - [2b](exercises/2b_exercise/ex2b_2.md) - A map created on QGIS and exported to Github with an image from a webpage.
        
 ## 3. Assignments
-<br>
+
+- [3a](assignments/assign3a/ex2b_2.md) - Assignment 1.
 
 ## 4. Final Project Documentation
 <br>
