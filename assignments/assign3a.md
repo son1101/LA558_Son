@@ -6,10 +6,9 @@
 
 
 
-### 2. Geospatial PDF
+### <a href="https://son1101.github.io/LA558_Son/assignment/assign3a/assign3.pdf" target="_blank">2. Geosptial PDF</a> 
 
 
-pdf
 #### Description
 
 ### 3. GIS2Web
