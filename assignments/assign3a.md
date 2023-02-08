@@ -11,4 +11,4 @@
     - Population of the districts in Seoul as of 2002 **and** 2022 (CSV File) provided by Seoul Metropolitan Government
   - The data sets were joined through "Join" tool, and then population growth rates were calculated through the "Calculate Field" tool in QGIS. 
  
- #### *Files related with "Assignment 3a" are located in [here](https://son1101.github.io/LA558_Son/assignments/assign3a).
+ #### *Files related with "Assignment 3a" are located in [here](https:github.io/Son_1101/LA558_Son/assignments/assign3a).
