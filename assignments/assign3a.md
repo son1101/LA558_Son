@@ -10,6 +10,7 @@
 
 ### <a href="https://son1101.github.io/LA558_Son/assignment/assign3a/assign3.PDF" target="_blank">2. Geosptial PDF</a> 
 
+[geo map](https://son1101.github.io/LA558_Son/assignments/assign3a/assign3.pdf)
 
 #### Description
 
