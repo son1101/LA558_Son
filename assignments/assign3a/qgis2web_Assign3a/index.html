@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <style>
+        #map {
+            width: 1316px;
+            height: 844px;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="data/Son_Seoul_Pop_Assignment1_0.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[37.41223609947196,126.66038349352827],[37.70184318497096,127.22503327275491]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        function pop_Son_Seoul_Pop_Assignment1_0(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2"><strong>1_District</strong><br />' + (feature.properties['1_District'] !== null ? autolinker.link(feature.properties['1_District'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">2_Pop2002</th>\
+                        <td>' + (feature.properties['2_Pop2002'] !== null ? autolinker.link(feature.properties['2_Pop2002'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">3_Pop2022</th>\
+                        <td>' + (feature.properties['3_Pop2022'] !== null ? autolinker.link(feature.properties['3_Pop2022'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">4_Growth</th>\
+                        <td>' + (feature.properties['4_Growth'] !== null ? autolinker.link(feature.properties['4_Growth'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Son_Seoul_Pop_Assignment1_0_0(feature) {
+            if (feature.properties['4_Growth'] >= -25.000000 && feature.properties['4_Growth'] <= -15.000000 ) {
+                return {
+                pane: 'pane_Son_Seoul_Pop_Assignment1_0',
+                opacity: 1,
+                color: 'rgba(247,247,247,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(227,26,28,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['4_Growth'] >= -15.000000 && feature.properties['4_Growth'] <= -5.000000 ) {
+                return {
+                pane: 'pane_Son_Seoul_Pop_Assignment1_0',
+                opacity: 1,
+                color: 'rgba(247,247,247,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,127,0,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['4_Growth'] >= -5.000000 && feature.properties['4_Growth'] <= 0.000000 ) {
+                return {
+                pane: 'pane_Son_Seoul_Pop_Assignment1_0',
+                opacity: 1,
+                color: 'rgba(247,247,247,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,191,111,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['4_Growth'] >= 0.000000 && feature.properties['4_Growth'] <= 5.000000 ) {
+                return {
+                pane: 'pane_Son_Seoul_Pop_Assignment1_0',
+                opacity: 1,
+                color: 'rgba(247,247,247,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(166,206,227,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['4_Growth'] >= 5.000000 && feature.properties['4_Growth'] <= 10.000000 ) {
+                return {
+                pane: 'pane_Son_Seoul_Pop_Assignment1_0',
+                opacity: 1,
+                color: 'rgba(247,247,247,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(31,120,180,1.0)',
+                interactive: true,
+            }
+            }
+        }
+        map.createPane('pane_Son_Seoul_Pop_Assignment1_0');
+        map.getPane('pane_Son_Seoul_Pop_Assignment1_0').style.zIndex = 400;
+        map.getPane('pane_Son_Seoul_Pop_Assignment1_0').style['mix-blend-mode'] = 'normal';
+        var layer_Son_Seoul_Pop_Assignment1_0 = new L.geoJson(json_Son_Seoul_Pop_Assignment1_0, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_Son_Seoul_Pop_Assignment1_0',
+            layerName: 'layer_Son_Seoul_Pop_Assignment1_0',
+            pane: 'pane_Son_Seoul_Pop_Assignment1_0',
+            onEachFeature: pop_Son_Seoul_Pop_Assignment1_0,
+            style: style_Son_Seoul_Pop_Assignment1_0_0,
+        });
+        bounds_group.addLayer(layer_Son_Seoul_Pop_Assignment1_0);
+        map.addLayer(layer_Son_Seoul_Pop_Assignment1_0);
+        var baseMaps = {};
+        L.control.layers(baseMaps,{'Son_Seoul_Pop_Assignment1<br /><table><tr><td style="text-align: center;"><img src="legend/Son_Seoul_Pop_Assignment1_0_25150.png" /></td><td>-25 - -15</td></tr><tr><td style="text-align: center;"><img src="legend/Son_Seoul_Pop_Assignment1_0_1551.png" /></td><td>-15 - -5</td></tr><tr><td style="text-align: center;"><img src="legend/Son_Seoul_Pop_Assignment1_0_502.png" /></td><td>-5 - 0</td></tr><tr><td style="text-align: center;"><img src="legend/Son_Seoul_Pop_Assignment1_0_053.png" /></td><td>0 - 5</td></tr><tr><td style="text-align: center;"><img src="legend/Son_Seoul_Pop_Assignment1_0_5104.png" /></td><td>5 - 10</td></tr></table>': layer_Son_Seoul_Pop_Assignment1_0,},{collapsed:false}).addTo(map);
+        setBounds();
+        resetLabels([layer_Son_Seoul_Pop_Assignment1_0]);
+        map.on("zoomend", function(){
+            resetLabels([layer_Son_Seoul_Pop_Assignment1_0]);
+        });
+        map.on("layeradd", function(){
+            resetLabels([layer_Son_Seoul_Pop_Assignment1_0]);
+        });
+        map.on("layerremove", function(){
+            resetLabels([layer_Son_Seoul_Pop_Assignment1_0]);
+        });
+        </script>
+    </body>
+</html>
