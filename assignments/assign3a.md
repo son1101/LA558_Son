@@ -15,7 +15,4 @@
 
 #### Description
 
-### 3. GIS2Web
-
-
-[Web Map 3](https://lily-ehler.github.io/LA558_Lily_Ehler/Assignments/Assignment1/qgis2web_3a/index.html)
+### [3. GIS2Web](https://son1101.github.io/LA558_Son/assignments/assign3a/qgis2web_Assign3a/index.html)
