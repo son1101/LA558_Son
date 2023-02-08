@@ -9,7 +9,7 @@ In his graduate studies in Korea, Son mainly explored community-university relat
 In 2022, he began his academic journey at Iowa State University. His interest is in urban revitalization and related issues, such as preserving urban heritages and citizen participation within community planning. His studies in the US allow him an international perspective on sustainability, amongst other relevant case studies.
 
 
-[Son's CV](CV_HyunsikSon_230207.pdf)
+[Son's CV]()
 
 
 [Son's Linkedin](https://www.linkedin.com/in/hyunsikson/)
