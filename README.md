@@ -7,9 +7,13 @@ A Master's Student in Community and Regional Planning at Iowa State University.
 
 For more information, Click [here](AboutHyunsikSon/AboutHyunsikSon.md).
 
-This is my first try [exercise_2b](ex2b_2.md)
+## Class Exercises
+[1b](exercises/1b_excercise/Exercise_1.md) - A quick analysis/observation of the data provided by Professor Chris Seeger
 
-try 2 [exercise_2b_2](excercises/ex2b_2.md)
+[2b](exercises/ex2b_2.md) - It contains a map created on QGIS and exported to Github with an image from a webpage.
+       
+## Assignments
 
+## Final Project Documentation
 
-Link to [Google](http://www.google.com)
+## Roadmap
