@@ -10,7 +10,7 @@
 - Map-making process
   - First, three data sets were obtained:
     - The map of Seoul (SHP File) provided by the National Geographic Information Institute (South Korea)
-    - Population of the districts in Seoul as of 2002 **and** 2022 (CSV File) provided by Seoul Metropolitan Government
+    - Population of the districts in Seoul as of 2002 **and** 2022 (CSV Files) provided by Seoul Metropolitan Government
   - The data sets were joined through "Join" tool, and then population growth rates were calculated through the "Calculate Field" tool in QGIS. 
  
  
