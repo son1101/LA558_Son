@@ -2,7 +2,7 @@
 
 ### 1. OpenStreetMap
 
-[This map](assign3a/aasign3a.html) shows my hometown in Seoul, South Korea.
+[This map](assign3a/assign3a.html) shows my hometown in Seoul, South Korea.
 
 [Web Map 1](https://lily-ehler.github.io/LA558_Lily_Ehler/Assignments/Assignment1/assign3a.html)
 
