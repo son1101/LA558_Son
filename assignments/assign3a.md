@@ -1,8 +1,7 @@
 ## Assignment 3a
 
-### 1. OpenStreetMap
+### [1. OpenStreetMap](https://son1101.github.io/LA558_Son/assignments/assign3a/assign3a.html) shows my hometown in Seoul, South Korea.
 
-[This map](https://son1101.github.io/LA558_Son/assignments/assign3a/assign3a.html) shows my hometown in Seoul, South Korea.
 
 
 
