@@ -4,7 +4,6 @@
 
 [This map](https://son1101.github.io/LA558_Son/assignments/assign3a/assign3a.html) shows my hometown in Seoul, South Korea.
 
-[Web Map 1](https://lily-ehler.github.io/LA558_Lily_Ehler/Assignments/Assignment1/assign3a.html)
 
 
 ### 2. Geospatial PDF
