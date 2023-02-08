@@ -10,7 +10,7 @@ For more information, Click [here](AboutHyunsikSon/AboutHyunsikSon.md).
 ## Class Exercises
 [1b](exercises/1b_excercise/Exercise_1.md) - A quick analysis/observation of the data provided by Professor Chris Seeger
 
-[2b](exercises/ex2b_2.md) - It contains a map created on QGIS and exported to Github with an image from a webpage.
+[2b](excercises/ex2b_2.md) - It contains a map created on QGIS and exported to Github with an image from a webpage.
        
 ## Assignments
 
