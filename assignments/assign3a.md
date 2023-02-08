@@ -1,8 +1,8 @@
-# Assignment 3a
+## Assignment 3a
 
-### OpenStreetMap
+### 1. OpenStreetMap
 
-This map was created using OpenStreetMap and placing a marker on the desired site, which in this case is my family's lakehouse in northern Minnesota.
+[This map](aasign3a.html) shows my hometown in Seoul, South Korea s in this case is my family's lakehouse in northern Minnesota.
 
 [Web Map 1](https://lily-ehler.github.io/LA558_Lily_Ehler/Assignments/Assignment1/assign3a.html)
 
