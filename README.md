@@ -1,14 +1,13 @@
 # Hyunsik Son's LA558 Portfolio
 This is my repository for the [Iowa State University](https://www.iastate.edu/) Web Mapping and Spatial Data Visualization - Spring 2023. Following is some information about myself and links to the exercises, assignments and class projects completed for this course.
+<br>
+<br>
 
-<br>
-<br>
 ## About Hyunsik Son
 
 A Master's Student in Community and Regional Planning at Iowa State University. 
 
 For more information, Click [here](AboutHyunsikSon/AboutHyunsikSon.md).
-
 <br>
 <br>
 ## Class Exercises
@@ -20,7 +19,11 @@ For more information, Click [here](AboutHyunsikSon/AboutHyunsikSon.md).
 ## Assignments
 <br>
 <br>
+
 ## Final Project Documentation
 <br>
 <br>
+
 ## Roadmap
+<br>
+<br>
