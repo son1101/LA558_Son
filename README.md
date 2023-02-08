@@ -8,9 +8,9 @@ A Master's Student in Community and Regional Planning at Iowa State University.
 For more information, Click [here](AboutHyunsikSon/AboutHyunsikSon.md).
 
 ## Class Exercises
-[1b](excercises/1b_excercise/1b_excercises.md) - A quick analysis/observation of the data provided by Professor Chris Seeger
+[1b](exercises/1b_exercise/1b_excercises.md) - A quick analysis/observation of the data provided by Professor Chris Seeger
 
-[2b](excercises/2b_exercise/ex2b_2.md) - It contains a map created on QGIS and exported to Github with an image from a webpage.
+[2b](exercises/2b_exercise/ex2b_2.md) - It contains a map created on QGIS and exported to Github with an image from a webpage.
        
 ## Assignments
 
