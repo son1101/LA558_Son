@@ -18,12 +18,9 @@ For more information, Click [here](AboutHyunsikSon/AboutHyunsikSon.md).
 <br>       
 ## Assignments
 <br>
-<br>
 
 ## Final Project Documentation
 <br>
-<br>
 
 ## Roadmap
-<br>
 <br>
