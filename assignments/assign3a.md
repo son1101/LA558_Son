@@ -2,7 +2,7 @@
 
 ### 1. OpenStreetMap
 
-[This map](aasign3a.html) shows my hometown in Seoul, South Korea s in this case is my family's lakehouse in northern Minnesota.
+[This map](https://son1101.github.io/LA558_Son/assignments/assign3a/aasign3a.html) shows my hometown in Seoul, South Korea.
 
 [Web Map 1](https://lily-ehler.github.io/LA558_Lily_Ehler/Assignments/Assignment1/assign3a.html)
 
