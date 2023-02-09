@@ -8,9 +8,10 @@
 ### <a href="assign3a/assign3.pdf" target="_blank">2. Geospatial PDF</a> **&** <a href="https://son1101.github.io/LA558_Son/assignments/assign3a/qgis2web_Assign3a/index.html" target="_blank">3. GIS2Web</a>
 - They show the Population Growth Rates of the Districts in Seoul, South Korea, between 2002 and 2022.
 - Map-making process
-  - First, three data sets were obtained:
+  - Three data sets were obtained:
     - The map of Seoul (SHP File) provided by the National Geographic Information Institute (South Korea)
     - Population of the districts in Seoul as of 2002 **and** 2022 (CSV Files) provided by Seoul Metropolitan Government
-  - The data sets were table-joined through the "Join" tool, and then population growth rates were calculated through the "Calculate Field" tool in QGIS. 
+  - The data in CSV Files were combined in Excel.
+  - The SHP File and the data sets in the revised CSV were table-joined through the "Join" tool, and then population growth rates were calculated through the "Calculate Field" tool in QGIS. 
  
  
