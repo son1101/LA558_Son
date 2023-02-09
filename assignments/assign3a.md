@@ -1,6 +1,6 @@
 ## Assignment 3a
 
-#### *Files related with this assignment are located in [here](https://github.com/son1101/LA558_Son).
+#### *Files related with this assignment are located in <a href="[assign3a/assign3.pdf](https://github.com/son1101/LA558_Son/tree/main/assignments/assign3a)" target="_blank">here</a> 
 
 ### [1. OpenStreetMap](https://son1101.github.io/LA558_Son/assignments/assign3a/assign3a.html) 
 - It shows my hometown in Seoul, South Korea.
