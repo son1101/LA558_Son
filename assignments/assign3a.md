@@ -2,8 +2,8 @@
 
 #### *Files related with this assignment are located in <a href="https://github.com/son1101/LA558_Son/tree/main/assignments/assign3a" target="_blank">here.</a> 
 
-### [1. OpenStreetMap](https://son1101.github.io/LA558_Son/assignments/assign3a/assign3a.html) 
-- It shows my hometown in Seoul, South Korea.
+### <a href="https://son1101.github.io/LA558_Son/assignments/assign3a/assign3a.html" target="_blank">1. OpenStreetMap</a>
+
 
 ### <a href="assign3a/assign3.pdf" target="_blank">2. Geospatial PDF</a> & [3. GIS2Web](https://son1101.github.io/LA558_Son/assignments/assign3a/qgis2web_Assign3a/index.html) 
 - They show the Population Growth Rates of the Districts in Seoul, South Korea, between 2002 and 2022.
