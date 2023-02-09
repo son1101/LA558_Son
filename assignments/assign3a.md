@@ -12,6 +12,6 @@
     - The map of Seoul (SHP File) provided by the National Geographic Information Institute (South Korea)
     - Population of the districts in Seoul as of 2002 **and** 2022 (CSV Files) provided by Seoul Metropolitan Government
   - The data in CSV Files were combined in Excel.
-  - The SHP File and the data sets in the revised CSV were table-joined through the "Join" tool, and then population growth rates were calculated through the "Calculate Field" tool in QGIS. 
+  - The SHP File and the data sets in the revised CSV File were table-joined through the "Join" tool, and then population growth rates were calculated through the "Calculate Field" tool in QGIS. 
  
  
