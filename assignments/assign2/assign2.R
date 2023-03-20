@@ -7,7 +7,7 @@ Assign2_Son <- read_xlsx('LA558_Assign2.xlsx', sheet ="for R")
 
 
 
-# Which County in Iowa has the highest percentage of K12 students?
+# Which County in Iowa has the highest percentage of Asian K12 students?
 
 PercentAsian <-Assign2_Son %>%
   group_by(COUNTYNAME) %>%
@@ -33,9 +33,20 @@ v1
 ggsave("Plot_Assign2.png", dpi = 500)
 
 
-write.csv(PercentAsian, file="Assign2_ForGIS.csv")
 
-  
+# Which County in Iowa has the highest percentage of Black K12 students?
+
+Assign2_Son <- read_xlsx('LA558_Assign2.xlsx', sheet ="for R")
+
+
+PercentBlack <-Assign2_Son %>%
+  group_by(COUNTYNAME) %>%
+  summarize(TotalK12= sum(TotalK12), BlackTotal= sum(BlackTotal)) %>%
+  mutate(PercBlack = round(BlackTotal / TotalK12, 3)*100) %>%
+  as.data.frame()
+
+
+write.csv(PercentBlack, file="Assign2_ForGIS.csv")
 
 
               
