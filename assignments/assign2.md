@@ -14,7 +14,7 @@ Using data sourced from the [Iowa Department of Education](https://educateiowa.g
 
 ### 2. Mapping Data in ArcGIS
 
-Also, I calculated percentage of Black K-12 students by county in Iowa with the same way used for Asians with [R](assign2/assign2.R) ("assign2.R"). And then, I exported the resulting data to [.csv file](assign2/Assign2_ForGIS.csv) ("Assign2_ForGIS.csv") with the "write.csv" function. Using [ArcGIS Pro](assign2/assign2) ("assign2/assign2.aprx"), I joined the table to "Iowa Counties" layer that I had. I finally made a map like below:
+Also, I calculated percentage of Black K-12 students by county in Iowa with the same way used for Asians with [R](assign2/assign2.R) ("assign2.R"). And then, I exported the resulting data to [.csv file](assign2/Assign2_ForGIS.csv) ("Assign2_ForGIS.csv") with the "write.csv" function. Using [ArcGIS Pro](assign2/assign2) ("assign2.aprx" in "assign2" folder), I joined the table to "Iowa Counties" layer that I had. I finally made a map like below:
 
 
 ![Map1](assign2/Map_Assign2.jpg)
