@@ -1,4 +1,4 @@
-## Assignment 2
+## Assignment 2 (5a)
 
 #### *Files used for this assignment are located in <a href="https://github.com/son1101/LA558_Son/tree/main/assignments/assign2" target="_blank">here.</a> 
 #### Here, I made three visuals; Plotting Data in R, Mapping Data in ArcGIS, and Mapping Data in R. 
