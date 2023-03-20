@@ -20,7 +20,7 @@ This is my repository for the [Iowa State University](https://www.iastate.edu/) 
 
 - [Assignment 1](assignments/assign3a.md) - Assignment 3a
 
-- [Assignment 2(assign5a)](assignments/assign2.md) - Assignment 5a
+- [Assignment 2](assignments/assign2.md) - Assignment 5a
 
 ## 4. Final Project Documentation
 <br>
