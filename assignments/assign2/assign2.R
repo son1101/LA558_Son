@@ -49,7 +49,36 @@ PercentBlack <-Assign2_Son %>%
 write.csv(PercentBlack, file="Assign2_ForGIS.csv")
 
 
-              
+
+# Which County in Iowa has the highest percentage of Black K12 students?
+
+Assign2_Son_2 <- read_xlsx('LA558_Assign2.xlsx', sheet ="for R")
+
+
+PercentBlack_2 <-Assign2_Son_2 %>%
+  group_by(COUNTYNAME) %>%
+  summarize(TotalK12= sum(TotalK12), BlackTotal= sum(BlackTotal)) %>%
+  mutate(PercBlack = round(BlackTotal / TotalK12, 3)*100) %>%
+  as.data.frame()
+
+iowaCounties_sf <- st_read("Counties.shp")
+
+ggplot()+
+  geom_sf(data = iowaCounties_sf, size = 3, color = "black", fill = "red")+
+  ggtitle("LA 558")+
+  coord_sf()
+
+iowaCounties_sf <-iowaCounties_sf %>%
+  rename("COUNTYNAME" ="COUNTY")
+
+myMap <- left_join(iowaCounties_sf, PercentBlack_2, by="COUNTYNAME")
+
+ggplot(myMap) +
+  geom_sf(aes(fill = PercBlack))+
+  ggtitle("Percentage of Black K-12 students by County in Iowa")+
+  theme_void()+
+  theme(plot.title=element_text(hjust=0.5))
+  
             
 
 
