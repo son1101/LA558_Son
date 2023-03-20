@@ -1,11 +1,11 @@
 ## Assignment 1 (3a)
 
-#### *Files related with this assignment are located in <a href="https://github.com/son1101/LA558_Son/tree/main/assignments/assign3a" target="_blank">here.</a> 
+#### *Files related with this assignment are located in <a href="https://github.com/son1101/LA558_Son/tree/main/assignments/assign1" target="_blank">here.</a> 
 
 ### <a href="https://son1101.github.io/LA558_Son/assignments/assign3a/assign3a.html" target="_blank">1. OpenStreetMap</a>
 - It shows my hometown in Seoul, South Korea.
 
-### <a href="assign3a/assign3.pdf" target="_blank">2. Geospatial PDF</a> **&** <a href="https://son1101.github.io/LA558_Son/assignments/assign3a/qgis2web_Assign3a/index.html" target="_blank">3. GIS2Web</a>
+### <a href="assign3a/assign1.pdf" target="_blank">2. Geospatial PDF</a> **&** <a href="https://son1101.github.io/LA558_Son/assignments/assign1/qgis2web_Assign3a/index.html" target="_blank">3. GIS2Web</a>
 - They show the Population Growth Rates of the Districts in Seoul, South Korea, between 2002 and 2022.
 - Map-making process
   - Three data sets were obtained:
