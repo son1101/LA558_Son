@@ -33,7 +33,7 @@ v1
 ggsave("Plot_Assign2.png", dpi = 500)
 
 
-
+write.csv(PercentAsian, file="Assign2_ForGIS.csv")
 
   
 
