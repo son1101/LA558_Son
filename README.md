@@ -14,7 +14,7 @@ This is my repository for the [Iowa State University](https://www.iastate.edu/) 
 
 - [2b](exercises/2b_exercise/ex2b_2.md) - A map created on QGIS and exported to Github with an image from a webpage.
 
-- [4a](R_Studio/4a_exercise) - Creating two simple plots using R studio
+- [4a](R_Studio/4a_exercise/4a_exercise.md) - Creating two simple plots using R studio
        
 ## 3. Assignments
 
