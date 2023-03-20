@@ -1,4 +1,4 @@
-## Assignment 3a
+## Assignment 1
 
 #### *Files related with this assignment are located in <a href="https://github.com/son1101/LA558_Son/tree/main/assignments/assign3a" target="_blank">here.</a> 
 
