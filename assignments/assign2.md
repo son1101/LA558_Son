@@ -2,7 +2,7 @@
 
 ### Plotting Data in R
 
-Using data sourced from the [Iowa Department of Education](https://educateiowa.gov/data-reporting/education-statistics-pk-12), I downloaded student Enrollment data. I cleaned up the file in [Excel](assignments/assign2/LA558_Assign2.xlsx). Using ggplot, I calculated a field representing the percent of teachers with advanced degrees in each district. I plotted the resulting data on a bar chart using the "ggplot" function, with labels showing the exact value.
+Using data sourced from the [Iowa Department of Education](https://educateiowa.gov/data-reporting/education-statistics-pk-12), I downloaded student Enrollment data. I cleaned up the file in [Excel-LA558_Assign2](assignments/assign2). Using ggplot, I calculated a field representing the percent of teachers with advanced degrees in each district. I plotted the resulting data on a bar chart using the "ggplot" function, with labels showing the exact value.
 
 ![Plot1](Assignment2/assign2plot.png)
 
