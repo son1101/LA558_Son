@@ -18,8 +18,8 @@ This is my repository for the [Iowa State University](https://www.iastate.edu/) 
        
 ## 3. Assignments
 
-- [Assignment 1](assignments/assign3a.md)
-- [Assignment 2](assignments/assign2.md)
+- [Assignment 1](assignments/assign3a/assign3a.md)
+- [Assignment 2](assignments/assign2/assign2.md)
 
 ## 4. Final Project Documentation
 <br>
