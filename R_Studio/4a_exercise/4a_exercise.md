@@ -1,5 +1,5 @@
 ## Exercise 4a 
-The population of persons under the age of 18 is less than 75% in the cities in Iowa denoted in purple.
+I created two numeric vector sets in R-Studio to plot the population and household in DondDuCheon City (DDC) between 2016 - 2023.
 
 ![This is a map I made](ex_4a_1.png)
 
