@@ -24,7 +24,7 @@ I made a graph using idbr package with TFR (Total Fertility Rate) data in [assig
 
 ### A Grouped Bar Graph Using .xlsx File.
 
-I made a grouped bar graph using data sourced from my CRP566: Policy Analysis and Planning class. I cleaned up the file in [assign.xlsx](assign3/assign3.xlsx) before bringing it into R. Using the [assign3.R](assign3/assign3.R). I plotted the resulting data on a grouped bar graph using the ggplot. 
+I made a grouped bar graph using data sourced from my CRP566: Policy Analysis and Planning class. I cleaned up the data in [assign.xlsx](assign3/assign3.xlsx) before bringing it into R. Using the [assign3.R](assign3/assign3.R), I plotted the resulting data on a grouped bar graph using the ggplot. 
 
 ![Map1](assign3/Employment.png)
 
