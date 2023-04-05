@@ -32,7 +32,7 @@ This is my repository for the [Iowa State University](https://www.iastate.edu/) 
 
 ## 4. Final Project Documentation
 
-- [Assignment 5](assignments/assign5.md) - Proposal (Working)
+- [Assignment 5](assignments/assign5.md) - Proposal (In Progress)
 
 ## 5. Roadmap
 <br>
