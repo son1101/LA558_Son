@@ -17,6 +17,8 @@ This is my repository for the [Iowa State University](https://www.iastate.edu/) 
 - [4a](exercises/4a_exercise/4a_exercise.md) - Creating two simple plots using R.
 
 - [6a](exercises/6a_exercise/Exercise6a.md) - Creating a simple map  in R using TidyCensus.
+
+- [7b](https://son1101.github.io/LA558_Son/exercises/7b_exercise/7b_exercise.html) - Creating A Simple Leaflet Map.
        
 ## 3. Assignments
 
