@@ -28,6 +28,8 @@ This is my repository for the [Iowa State University](https://www.iastate.edu/) 
 
 - [Assignment 3](assignments/assign3.md) - 6b
 
+- [Assignment 4](assignments/assign4/index.html) - 7b
+
 ## 4. Final Project Documentation
 <br>
 
