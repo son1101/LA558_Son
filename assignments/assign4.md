@@ -1,6 +1,6 @@
-## Assignment 3 (6b)
+## Assignment 4 (7b)
 
-#### *Files used for this assignment are located in <a href="https://github.com/son1101/LA558_Son/tree/main/assignments/assign3" target="_blank">here (GitHub).</a> 
+#### *Files used for this assignment are located in <a href="https://github.com/son1101/LA558_Son/tree/main/assignments/assign4" target="_blank">here (GitHub).</a> 
 
 
 
