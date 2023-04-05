@@ -1,4 +1,4 @@
-#Leaflet mapping: adding multiple markers to slippy ma
+#Leaflet mapping
 #
 # Hyunsik Son
 
@@ -26,19 +26,21 @@ map
 
 # A Leaflet Chloropleth Map
 library(sf)
+library(leaflet)
+library(htmltools)
 
 studentCount <- st_read("ForAssign4b.shp")
-studentCount <- st_transform(studentCount, crs = 4326)  
+studentCount <- st_transform(studentCount, crs = 4326)
 
+bounds <-studentCount %>%
+  st_bbox() %>%
+  as.character()
+fitBounds(m, -96.63306039630396, 40.37830479583795, -90.14002756307562, 43.50012771146711)
 
-
-library("RColorBrewer")
-display.brewer.all()
-bins <- c(0, 2, 4, 6, 8, 10, 12, 14, 16, 18)
+bins <- c(0, 3, 6, 9, 12, 15, 18)
 pal <- colorBin("BuGn", domain=studentCount$PercBlack, bins = bins)
-icon <- makeIcon(iconUrl = "assign4a_book.png", iconWidth = 25, iconHeight = 25)
 
-labels <-sprintf(
+labels <- sprintf(
   "<strong>%s</strong><br/>%g percent",
   studentCount$CountyName, studentCount$PercBlack
 ) %>% lapply(htmltools::HTML)
@@ -46,6 +48,7 @@ labels <-sprintf(
 m <- leaflet() %>%
   setView(-94.5, 42.2, 6) %>%
   addTiles() %>%
+  fitBounds(bounds[1], bounds[2], bounds[3], bounds[4]) %>%
   addPolygons(data = studentCount,
               fillColor = ~pal(PercBlack),
               weight = 0.5,
@@ -64,16 +67,22 @@ m <- leaflet() %>%
                 style = list("font-weight" = "normal", padding = "3px 8px"),
                 textsize = "12px",
                 direction = "auto")) %>%
-  addMarkers(lng = -93.64640, lat = 42.02684, icon = icon, 
-             popup = paste("<strong>", "<center>", "Iowa State University"))
+  addLayersControl(
+    overlayGroups = c("Iowa State University"),
+    options = layersControlOptions(
+      collapsed = FALSE
+    ),
+    position = "topleft"
+  ) %>%
+  addMarkers(lng = -93.64640, lat = 42.02684, popup = "Iowa State University", group = "Iowa State University") %>%
+  addLegend(pal = pal, values = studentCount$PercBlack, opacity = 1, title = "Black K12 Student %", 
+                position = "bottomright")
 
 m
 
+library(htmlwidgets)
+saveWidget(map, "assign4a.html", selfcontained = F, libdir="lib")
+saveWidget(m, "assign4b.html", selfcontained = F, libdir="lib2")
 
-
-
-
-m %>% addLegend(pal = pal, values = studentCount$PercBlack, opacity = 1, title = "Black K12 Student %", 
-                position = "bottomright")
 
   
