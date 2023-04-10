@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20231.23.0310.1044                               -->
-<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
@@ -19,6 +19,7 @@
     <WindowsPersistSimpleIdentifiers />
     <WorksheetBackgroundTransparency />
   </document-format-change-manifest>
+  <repository-location id='exercise_10b' path='/workbooks' revision='1.0' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -33,10 +34,10 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='2007_Hyunsik' name='excel-direct.1y6r0d40849bsm13njlc40ac46lq'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/shs90/OneDrive/바탕 화면/Final Project/Data 정리/2007_Hyunsik.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/shs90/OneDrive/바탕 화면/Final Project/Data 정리/2007_Hyunsik.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
           </named-connection>
           <named-connection caption='LARD_ADM_SECT_SGG_41' name='ogrdirect.1291ln31xued1n147xelt0zsivwm'>
-            <connection class='ogrdirect' directory='C:/Users/shs90/OneDrive/바탕 화면/Final Project/Data 정리' filename='LARD_ADM_SECT_SGG_41.shp' password='' server='' tablename='' />
+            <connection class='ogrdirect' directory='C:/Users/shs90/OneDrive/바탕 화면/Final Project/Data 정리' filename='LARD_ADM_SECT_SGG_41.shp' password='' server='' tablename='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='ogrdirect.1291ln31xued1n147xelt0zsivwm' name='LARD_ADM_SECT_SGG_41.shp' table='[LARD_ADM_SECT_SGG_41.shp]' type='table'>
@@ -717,17 +718,6 @@
               <bucket>%null%</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[none:City (LARD_ADM_SECT_SGG_41.shp):nk]' type='palette'>
-            <map to='#309143'>
-              <bucket>&quot;Pyeongtaek&quot;</bucket>
-            </map>
-            <map to='#eb1e2c'>
-              <bucket>&quot;Dongducheon&quot;</bucket>
-            </map>
-            <map to='#f9d23c'>
-              <bucket>%null%</bucket>
-            </map>
-          </encoding>
           <encoding attr='color' field='[:Measure Names]' type='palette'>
             <map to='#762f3d'>
               <bucket>&quot;[federated.0kwj87a15j04da108aqh30r729w1].[sum:d2005:qk]&quot;</bucket>
@@ -740,6 +730,17 @@
             </map>
             <map to='#f5de98'>
               <bucket>&quot;[federated.0kwj87a15j04da108aqh30r729w1].[sum:d1975:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:City (LARD_ADM_SECT_SGG_41.shp):nk]' type='palette'>
+            <map to='#309143'>
+              <bucket>&quot;Pyeongtaek&quot;</bucket>
+            </map>
+            <map to='#eb1e2c'>
+              <bucket>&quot;Dongducheon&quot;</bucket>
+            </map>
+            <map to='#f9d23c'>
+              <bucket>%null%</bucket>
             </map>
           </encoding>
         </style-rule>
@@ -1103,8 +1104,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='15' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='14' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='25' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='24' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='99250' id='3' is-fixed='true' name='PT_DDC' w='49700' x='-100' y='125'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1153,6 +1154,32 @@
         </devicelayout>
       </devicelayouts>
       <simple-id uuid='{1793569C-D960-4452-AB9D-C63A6CAAF032}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='3423' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='4253' />
+            <zone h='84440' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='14730'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='' id='1' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{DE51B22E-3648-44C2-B653-5AD5BBF222B4}' />
     </dashboard>
   </dashboards>
   <windows source-height='30'>
@@ -1272,6 +1299,11 @@
       </viewpoints>
       <active id='-1' />
       <simple-id uuid='{CA27E8D5-4BFB-4ACD-A7A6-289E2ADD85A7}' />
+    </window>
+    <window class='dashboard' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{6CEB7011-4589-4333-9996-36D2FCA9EFC9}' />
     </window>
   </windows>
   <thumbnails>
