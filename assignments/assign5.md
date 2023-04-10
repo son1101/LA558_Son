@@ -2,6 +2,8 @@
 
 ### Project Title: The U.S. Military Base Relocation and Its Impact on the Host Cities in South Korea 
 
+#### *PDF File for this abstract is available [here](assign5/Son_FinalProject_Abstract.pdf).
+
 ### Abstract
 
 In 2002, the USFK and the South Korean governments agreed to consolidate and relocate U.S. military bases to a few large installations nationwide, with the relocation process beginning in 2005. This project focuses on examining how the relocation has affected two host cities, Dongducheon and Pyeongtaek. By analyzing the socioeconomic data of the two cities in 2007 and 2019, including factors such as physical environment, demography, and economy, the project aims to diagnose their current status in terms of urban decay. To achieve this goal, interactive web maps and various figures will be used to present the findings of the study.
