@@ -2,7 +2,7 @@
 
 ### Project Title: The U.S. Military Base Relocation and Its Impact on the Host Cities in South Korea 
 
-#### *PDF File for this abstract is available [here](assign5/Son_FinalProject_Abstract.pdf).
+#### *PDF File for this proposal is available [here](assign5/Son_FinalProject_Abstract.pdf).
 
 ### Abstract
 
