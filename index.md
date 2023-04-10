@@ -34,7 +34,7 @@ This is my repository for the [Iowa State University](https://www.iastate.edu/) 
 
 ## 4. Final Project Documentation
 
-- [Assignment 5](assignments/assign5.md) - Proposal (In Progress)
+- [Assignment 5](assignments/assign5.md) - Proposal (Completed)
 
 ## 5. Roadmap
 <br>
