@@ -19,6 +19,8 @@ This is my repository for the [Iowa State University](https://www.iastate.edu/) 
 - [6a](exercises/6a_exercise/Exercise6a.md) - Creating a simple map  in R using TidyCensus.
 
 - [7b](https://son1101.github.io/LA558_Son/exercises/7b_exercise/7b_exercise.html) - Creating a Simple Leaflet Map.
+
+- [10b](https://son1101.github.io/LA558_Son/exercises/10b_exercise/10b_exercise.html) - Creating a Dashboaord in Tableau.
        
 ## 3. Assignments
 
