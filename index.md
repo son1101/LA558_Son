@@ -32,9 +32,9 @@ This is my repository for the [Iowa State University](https://www.iastate.edu/) 
 
 - [Assignment 4](assignments/assign4/index.html) - 8a
 
-## 4. Final Project Documentation
+## 4. Final Project 
 
 - [Assignment 5](assignments/assign5.md) - Project Proposal 
 
-## 5. Roadmap
+
 <br>
