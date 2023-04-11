@@ -32,7 +32,7 @@ This is my repository for the [Iowa State University](https://www.iastate.edu/) 
 
 - [Assignment 4](assignments/assign4/index.html) - 8a
 
-- [test](assignments/assign6.html)
+- [test](assignments/test/index.html)
 
 ## 4. Final Project 
 
