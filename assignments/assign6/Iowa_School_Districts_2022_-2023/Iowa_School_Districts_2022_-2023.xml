@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <descript>
+            <abstract>Iowa School District boundaries prepared by the Iowa Department of Education for the 2022-2023 school year - updated 4/21/2023</abstract>
+            <purpose>Iowa School Districts as prepared by the Iowa Department of Education</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>iowa</themekey>
+                <themekey> school</themekey>
+                <themekey> district</themekey>
+                <themekey> education</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst/>
+        <datacred>Iowa Department of Education, Iowa School Districts, County Auditors</datacred>
+    </idinfo>
+    <metainfo>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

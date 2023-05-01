@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <descript>
+            <abstract>Iowa Public and Private K-12 School Buildings - maintained by the Iowa Department of Education - updated 10/12/2022School Level Codes are as follows:1:  Public High School2:  Public Junior High
+School3:  Public Middle
+School4:  Public Elementary
+School5:  Special Education6:  Nonpublic High
+School7:  Nonpublic
+Elementary School8:  Nonpublic K-129:  Alternative School12:  Nonpublic System
+Office18:  Charter School19:  Preschool
+(on-site)20:  Nonpublic Middle
+School98:  Residential
+Facility99:  Other</abstract>
+            <purpose>Iowa Public and Private K-12 School Buildings - maintained by the Iowa Department of Education</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>iowa</themekey>
+                <themekey>school</themekey>
+                <themekey>district</themekey>
+                <themekey>education</themekey>
+                <themekey>buildings</themekey>
+                <themekey>structure</themekey>
+                <themekey>society</themekey>
+                <themekey>iowa.education</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst/>
+        <datacred>Iowa Department of Education, School Districts, Schools, Buildings, Education</datacred>
+    </idinfo>
+    <metainfo>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
