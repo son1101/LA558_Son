@@ -1,4 +1,4 @@
-# Assignment 5 
+# Project Proposal
 
 ### Title: The U.S. Military Base Relocation and Its Impact on the Host Cities in South Korea 
 
