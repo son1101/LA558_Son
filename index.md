@@ -42,4 +42,6 @@ This is my repository for the [Iowa State University](https://www.iastate.edu/) 
 
 - [Final Project](https://son1101.github.io/LA558_Son/Final/Final.html) - "The U.S. Military Base Relocation and Its Impact on the Host Cities in South Korea."
 
+- [Project Review](Final/pROJECT Review.pdf).
+
 <br>
